@@ -1,0 +1,52 @@
+@media screen and (min-width: 1440px) {
+    #card-mobile {
+        width: 384px;
+        max-width: 384px;
+        height: 522px;
+        background-color: rgba(255, 255, 255, 80%);
+    }
+
+    #card-mobile:hover {
+        background-color: rgba(255, 255, 255, 100%);
+        cursor: pointer;
+    }
+
+
+    #category {
+        font-size: 14px;
+        width: 82px;
+        height: 29px;
+    }
+
+    #publish-date {
+        font-size: 14px;
+        width: 143px;
+        height: 21px;
+    }
+
+    #title {
+        font-size: 24px;
+        width: 336px;
+        height: 36px;
+    }
+
+    #title:hover {
+        color: hsl(47, 88%, 63%);
+        cursor: pointer;
+    }
+
+    #description {
+        font-size: 16px;
+        width: 336px;
+        height: 72px;
+    }
+
+    #author {
+        font-size: 14px;
+        margin: 0;
+    }
+
+    footer {
+        margin-top: 20px;
+    }
+}
